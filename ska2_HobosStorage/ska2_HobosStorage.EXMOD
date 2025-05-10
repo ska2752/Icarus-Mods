@@ -1,0 +1,1344 @@
+{
+    "name": "ska2_HobosStorage",
+    "author": "ska2",
+    "version": "1.0",
+    "week": "",
+    "description": "Select bags for the discerning Hobo.",
+    "fileName": "ska2_HobosStorage",
+    "readmeURL": "",
+    "imageURL": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Alterations-D_Alterations.json",
+            "File_Items": [
+                {
+                    "Name": "Combine_Harvester_1",
+                    "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Combine_Harvester_1-DisplayName\", \"Combine_Harvester 1\")",
+                    "Description": "NSLOCTEXT(\"D_Alterations\", \"Combine_Harvester_1-Description\", \"Allows the reaping and threshing of seeds while harvesting at the same time.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Sickle.Alteration_Sickle",
+                    "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+                    "Stats": {
+                        "(Value=\"BaseReapingRewards_%\")": 25,
+                        "(Value=\"CanHarvestSeeds_?\")": 1
+                    }
+                },
+                {
+                    "Name": "Combine_Harvester_2",
+                    "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Combine_Harvester_2-DisplayName\", \"Combine_Harvester 2\")",
+                    "Description": "NSLOCTEXT(\"D_Alterations\", \"Combine_Harvester_2-Description\", \"Allows the reaping and threshing of seeds while harvesting at the same time.\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Sickle.Alteration_Sickle",
+                    "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+                    "Stats": {
+                        "(Value=\"BaseReapingRewards_%\")": 50,
+                        "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
+                        "(Value=\"CanHarvestSeeds_?\")": 1
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Attachments-D_IcarusAttachments.json",
+            "File_Items": [
+                {
+                    "Name": "Combine_Harvester_1",
+                    "GrantedAlteration": {
+                        "RowName": "Combine_Harvester_1"
+                    }
+                },
+                {
+                    "Name": "Combine_Harvester_2",
+                    "GrantedAlteration": {
+                        "RowName": "Combine_Harvester_2"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Hobos_Bindle",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Advanced_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Iron_Nail",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Advanced_Leather",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Hobos_Bindle",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ArmorBench"
+                    }
+                },
+                {
+                    "Name": "Hobos_Satchel",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Advanced_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Iron_Nail",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Advanced_Leather",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Hobos_Satchel",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ArmorBench"
+                    }
+                },
+                {
+                    "Name": "Hobos_Butchers_Bag",
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Advanced_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Iron_Nail",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Advanced_Leather",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Hobos_Butchers_Bag",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ArmorBench"
+                    }
+                },
+                {
+                    "Name": "Attachment_Combine_Harvester_1",
+                    "Requirement": {
+                        "RowName": "Melee_Attachment_Pack"
+                    },
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Alteration_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Advanced_Alteration_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Coal_Ore",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Sickle_Attachment_Combine_Harvester_1",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "AlterationsBench"
+                    }
+                },
+                {
+                    "Name": "Attachment_Combine_Harvester_2",
+                    "Requirement": {
+                        "RowName": "Advanced_Alteration_Melee_Pack"
+                    },
+                    "RequiredMillijoules": 20000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Advanced_Alteration_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Platinum_Ingot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Sickle_Attachment_Combine_Harvester_1",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Sickle_Attachment_Combine_Harvester_2",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "AlterationsBench"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_BagPriority.json",
+            "File_Items": [
+                {
+                    "Name": "HobosButchersBag",
+                    "ItemQuery": {
+                        "RowName": "Any_MeatRaw"
+                    },
+                    "BagItems": [
+                        {
+                            "RowName": "Hobos_Butchers_Bag",
+                            "DataTableName": "D_ItemsStatic"
+                        }
+                    ]
+                },
+                {
+                    "Name": "HobosSatchel",
+                    "ItemQuery": {
+                        "RowName": "Any_FoodPlantDrink"
+                    },
+                    "BagItems": [
+                        {
+                            "RowName": "Hobos_Satchel",
+                            "DataTableName": "D_ItemsStatic"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryContainer.json",
+            "File_Items": [
+                {
+                    "Name": "Hobos_Bindle",
+                    "InventoryInfo": {
+                        "RowName": "Hobos_Bindle"
+                    },
+                    "bCanInventoryTick": true
+                },
+                {
+                    "Name": "Hobos_Satchel",
+                    "InventoryInfo": {
+                        "RowName": "Hobos_Satchel"
+                    },
+                    "bCanInventoryTick": true
+                },
+                {
+                    "Name": "Hobos_Butchers_Bag",
+                    "InventoryInfo": {
+                        "RowName": "Hobos_Butchers_Bag"
+                    },
+                    "bCanInventoryTick": true
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryInfo.json",
+            "File_Items": [
+                {
+                    "Name": "Hobos_Bindle",
+                    "InventoryID": {
+                        "Value": "General"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "General_Inventory_Slot"
+                    },
+                    "StartingSlots": 36,
+                    "Stats": {
+                        "(Value=\"BaseWeightCapacity_+%\")": 25
+                    }
+                },
+                {
+                    "Name": "Hobos_Satchel",
+                    "InventoryID": {
+                        "Value": "General"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "Any_FoodPlantDrink"
+                    },
+                    "StartingSlots": 36,
+                    "Stats": {
+                        "(Value=\"BaseInventoryCannotSpoil_?\")": 1,
+                        "(Value=\"BaseWeightCapacity_+%\")": 25
+                    }
+                },
+                {
+                    "Name": "Hobos_Butchers_Bag",
+                    "InventoryID": {
+                        "Value": "General"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "Any_MeatRaw"
+                    },
+                    "StartingSlots": 36,
+                    "Stats": {
+                        "(Value=\"BaseInventoryCannotSpoil_?\")": 1,
+                        "(Value=\"BaseWeightCapacity_+%\")": 25
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Hobos_Bindle",
+                    "Meshable": {
+                        "RowName": "Mesh_Seed_Pouch"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Hobos_Bindle"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Open_Bag"
+                    },
+                    "Usable": {
+                        "RowName": "Open_Inventory"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_250"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_10_Minutes"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Hobos_Bindle"
+                    },
+                    "Audio": {
+                        "RowName": "GenericDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Hobos_Satchel",
+                    "Meshable": {
+                        "RowName": "Mesh_Seed_Pouch"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Hobos_Satchel"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Open_Bag"
+                    },
+                    "Usable": {
+                        "RowName": "Open_Inventory"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_250"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_10_Minutes"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Hobos_Satchel"
+                    },
+                    "Audio": {
+                        "RowName": "GenericDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Hobos_Butchers_Bag",
+                    "Meshable": {
+                        "RowName": "Mesh_Seed_Pouch"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Hobos_Butchers_Bag"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Open_Bag"
+                    },
+                    "Usable": {
+                        "RowName": "Open_Inventory"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_250"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_10_Minutes"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Hobos_Butchers_Bag"
+                    },
+                    "Audio": {
+                        "RowName": "GenericDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Food"
+                            },
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Raw_Meat",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Item.Creature.Loot"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Item.Creature.Loot"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Raw_Bacon",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Item.Creature.Loot"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Item.Creature.Loot"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Raw_Fish",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Fish_Chunks",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Saltwater_Fish_Fillet",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Freshwater_Fish_Fillet",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw"
+                            },
+                            {
+                                "TagName": "ModifierState.Chance.FoodPoisoning"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Consumable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Sickle_Attachment_Combine_Harvester_1",
+                    "Meshable": {
+                        "RowName": "Mesh_Attachment_Generic"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Sickle_Attachment_Combine_Harvester_1"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Floatable": {
+                        "RowName": "LightItem"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Attachments": {
+                        "RowName": "Combine_Harvester_1"
+                    },
+                    "CraftingExperience": 10,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Attachment.Sickle"
+                            },
+                            {
+                                "TagName": "Item.Attachment.Rank.1"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Attachment.Sickle"
+                            },
+                            {
+                                "TagName": "Item.Attachment.Rank.1"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Sickle_Attachment_Combine_Harvester_2",
+                    "Meshable": {
+                        "RowName": "Mesh_Attachment_Generic"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Sickle_Attachment_Combine_Harvester_2"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Floatable": {
+                        "RowName": "LightItem"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Attachments": {
+                        "RowName": "Combine_Harvester_2"
+                    },
+                    "CraftingExperience": 10,
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Attachment.Sickle"
+                            },
+                            {
+                                "TagName": "Item.Attachment.Rank.2"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Attachment.Sickle"
+                            },
+                            {
+                                "TagName": "Item.Attachment.Rank.2"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Hobos_Bindle",
+                    "ItemStaticData": {
+                        "RowName": "Hobos_Bindle"
+                    }
+                },
+                {
+                    "Name": "Hobos_Satchel",
+                    "ItemStaticData": {
+                        "RowName": "Hobos_Satchel"
+                    }
+                },
+                {
+                    "Name": "Hobos_Butchers_Bag",
+                    "ItemStaticData": {
+                        "RowName": "Hobos_Butchers_Bag"
+                    }
+                },
+                {
+                    "Name": "Sickle_Attachment_Combine_Harvester_1",
+                    "ItemStaticData": {
+                        "RowName": "Sickle_Attachment_Combine_Harvester_1"
+                    }
+                },
+                {
+                    "Name": "Sickle_Attachment_Combine_Harvester_2",
+                    "ItemStaticData": {
+                        "RowName": "Sickle_Attachment_Combine_Harvester_2"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Tags-D_TagQueries.json",
+            "File_Items": [
+                {
+                    "Name": "Any_FoodPlantDrink",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Item.Consumable.Food"
+                            },
+                            {
+                                "TagName": "NPC.Fish"
+                            },
+                            {
+                                "TagName": "Item.Plant"
+                            },
+                            {
+                                "TagName": "Item.AllowInFridge"
+                            },
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw.Prime"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            1,
+                            6,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "AutoDescription": " ALL( ANY( Item.Consumable.Food, NPC.Fish, Item.Plant, Item.AllowInFridge ), NONE( Item.Meat.Raw, Item.Consumable.Food.Raw.Prime ) )"
+                    }
+                },
+                {
+                    "Name": "Any_MeatRaw",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Item.Meat.Raw"
+                            },
+                            {
+                                "TagName": "Item.Consumable.Food.Raw.Prime"
+                            },
+                            {
+                                "TagName": "NPC.Fish"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            1,
+                            3,
+                            0,
+                            1,
+                            2
+                        ],
+                        "AutoDescription": " ANY( Item.Meat.Raw, Item.Consumable.Food.Raw.Prime, NPC.Fish )"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Hobos_Bindle",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Bindle-DisplayName\", \"Hobo\\'s Bindle\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Basic_Backpack.ITEM_Basic_Backpack",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Bindle-Description\", \"A general purpose rucksack to store just about anything a Hobo could carry.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Bindle-FlavorText\", \"Don\\'t leave camp without one.\")",
+                    "Weight": 250,
+                    "MaxStack": 1
+                },
+                {
+                    "Name": "Item_Hobos_Satchel",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Satchel-DisplayName\", \"Hobo\\'s Satchel\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Seed_Pouch_T2.T_ITEM_Seed_Pouch_T2",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Satchel-Description\", \"On the go meals for the more adventurous Hobo.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Satchel-FlavorText\", \"Don\\'t get the hangries.\")",
+                    "Weight": 250,
+                    "MaxStack": 1
+                },
+                {
+                    "Name": "Item_Hobos_Butchers_Bag",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Butchers_Bag-DisplayName\", \"Hobo\\'s Butchers Bag\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Seed_Pouch_T2.T_ITEM_Seed_Pouch_T2",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Butchers_Bag-Description\", \"For all your cuts of meat.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hobos_Butchers_Bag-FlavorText\", \"Where\\'s the Beef?\")",
+                    "Weight": 250,
+                    "MaxStack": 1
+                },
+                {
+                    "Name": "Item_Sickle_Attachment_Combine_Harvester_1",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_1-DisplayName\", \"Combine Harvester Attachment\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_AttachFibre.ITEM_AttachFibre",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_1-Description\", \"An attachment that increases the yield of plants from reaping all the while threshing for thier seeds.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_1-FlavorText\", \"Can be equipped to a valid sickle at an Alteration Bench.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Sickle_Attachment_Combine_Harvester_2",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_2-DisplayName\", \"Advanced Combine Harvester Attachment\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_AttachFibre.ITEM_AttachFibre",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_2-Description\", \"An attachment that greatly increases the yield of plants from reaping all the while threshing for thier seeds.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sickle_Attachment_Combine_Harvester_2-FlavorText\", \"Can be equipped to a valid sickle at an Alteration Bench.\")",
+                    "Weight": 1000
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
