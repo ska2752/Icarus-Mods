@@ -1,0 +1,58 @@
+{
+    "name" : "ska2_QoL_ReCrafts",
+    "author": "ska2",
+    "version": "1.0",
+    "week": "",
+    "description": "Adds recrafting recipes for many items. This allows for recrafting of items to gain the upgraded stats after selecting talents that upgrade items.",
+    "fileName" : "ska2_QoL_ReCrafts",
+    "readmeURL": "",
+    "imageURL": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Electric_Furnace",
+                    "Requirement": {
+                        "RowName": "Electric_Furnace"
+                    },
+                    "RequiredMillijoules": 10000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Electric_Furnace_Large",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Electric_Furnace_Large",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MachiningBench"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
