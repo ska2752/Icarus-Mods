@@ -1,6 +1,6 @@
 ska2_Electric_Smoker
 -----------------------------------
-Mod Version: 1.0
+Mod Version: 1.1
 
 
 ## Description:
@@ -9,9 +9,16 @@ Mod Version: 1.0
 
 Finished adding in the Tier 4 Electric Smoker, it was already partially implemented by RocketWerkz.
 
-Unlock in the Tier 4 Tech Tree, right after the Fabricator.
+Unlock in the Tier 4 Tech Tree, right after the Electricity Tool.
 Craftable in the Fabricator, called "Electric Smoker"
+It can be placed either inside or outside, your choice.
 
 
 ## Changes: 
-v1.0 - Initial Release
+v1.0
+* Initial Release
+
+v1.1
+* Added the "EffectedByWeather": false
+* Moved the blueprint to behind the Electricty Tool, it seems better placed after the tool it needs to be useful
+* Increased the "BaseCraftingSpeed" to 50, this matches many other electric benches, stove, etc.
