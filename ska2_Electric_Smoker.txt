@@ -1,0 +1,17 @@
+ska2_Electric_Smoker
+-----------------------------------
+Mod Version: 1.0
+
+
+## Description:
+"This is my mod. There are many like it but this one's mine. My mod is my best friend. It is my life. I must master it as I must master my life. Without me, my mod is useless. Without my mod, I am useless. I must keep my mod true. I must mod better than those who are trying to out mod me. I must mod him before he mods me. My mod and myself are defenders of the game." -=-Jabberwocky-=-
+
+
+Finished adding in the Tier 4 Electric Smoker, it was already partially implemented by RocketWerkz.
+
+Unlock in the Tier 4 Tech Tree, right after the Fabricator.
+Craftable in the Fabricator, called "Electric Smoker"
+
+
+## Changes: 
+v1.0 - Initial Release

@@ -1,0 +1,17 @@
+{
+  "mods": [
+    {
+      "name": "ska2_Electric_Smoker",
+      "author": "ska2",
+      "version": "1.0",
+      "week": "",
+      "compatibility": "All",
+      "description": "",
+      "imageURL": "https://github.com/ska2752/Icarus-Mods/raw/main/ska2_Electric_Smoker.png",
+      "readmeURL": "https://github.com/ska2752/Icarus-Mods/raw/main/ska2_Electric_Smoker.txt",
+      "files": {
+          "exmodz": "https://github.com/ska2752/Icarus-Mods/raw/main/ska2_Electric_Smoker.EXMODZ"
+      }
+    }
+   ]
+ }
